@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const FeedbackOptions = ({ value, setValue, buttonName }) => {
   const handleClick = () => {
     setValue(value + 1);
