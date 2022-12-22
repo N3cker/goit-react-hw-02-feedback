@@ -9,3 +9,9 @@ const FeedbackOptions = ({ value, setValue, buttonName }) => {
 };
 
 export default FeedbackOptions;
+
+FeedbackOptions.propTypes = {
+  value: PropTypes.number.isRequired,
+  setValue: PropTypes.func.isRequired,
+  buttonName: PropTypes.string.isRequired,
+};
